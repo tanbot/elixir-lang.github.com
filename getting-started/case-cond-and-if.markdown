@@ -172,7 +172,7 @@ iex> if nil do
 
 ## `do/end` blocks
 
-At this point, we have learned four control structures: `case`, `cond`, `if`, and `unless`, and they were all wrapped in `do/end` blocks. It happens we could also write `if` as follows:
+At this point, we have learned four control structures: `case`, `cond`, `if`, and `unless`, and they were all wrapped in `do/end` blocks. As it happens, we can also write `if` as follows:
 
 ```iex
 iex> if true, do: 1 + 2
